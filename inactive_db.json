@@ -1,3 +1,5 @@
 {
-    "/home/travis/build/Ultimate-Hosts-Blacklist/SSH_attackers_probers/domains.list": {}
+    "/home/travis/build/Ultimate-Hosts-Blacklist/SSH_attackers_probers/domains.list": {
+        "to_test": []
+    }
 }
