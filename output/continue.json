@@ -2,7 +2,7 @@
     "/home/travis/build/Ultimate-Hosts-Blacklist/SSH_attackers_probers/domains.list": {
         "down": 0,
         "invalid": 0,
-        "tested": 648,
-        "up": 648
+        "tested": 0,
+        "up": 0
     }
 }
