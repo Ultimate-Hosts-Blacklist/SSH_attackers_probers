@@ -1,31 +1,35 @@
 env:
   global:
-    - secure: CHr/9H8bQGIfZb5q0O2RpjqwJ03IFSTJft9MTAQVsWood7S1LBJcqfL4in2SU2Laj7ZhzDKyDwa71M+EGNjzhX4XH6jtq4YlEIFGCp/Kku5v0wuW4Qyj0ZYVN3FB64a8f4L0ZOSb3ZE8W7nfFR1Wd9bUus6ppdoMPml8dRNY/1UB5fql8S8IfZRweZykQG4SCJQj0Jz8SMacFiIvyfDVolFkAjvD8sVGusEyMDBjorilTgOAwhospr5S9fmxVm0+FH63QCokKq26hYQgE8XyY4qNXlwe8zIc+36xWAGYhUbpYOEHOzAKtxTHT42PTnhrhD8tyN7b7ev+07H6i/2eQoRn41NNw6L0iaQ61Snuv+QJB8WQNXJ37vespzX2YJ+aWUhj+7po+KhvTBhG8r2qqlNv7FCLdGBgvUy5c0hCXJ1CNUzlTKUnpNLXxbLfPfAF+YscI6BfNH/89hucX2BJqFx/RJpA4Z7Mn7U07f0sDApCk3rM7SqUy50hkvAhhuTVeYs9y2Hgok7w6t9h9vmjpk15g5FkDY9sPmULe/44kamLM87nI0orQpEZNd+pPebR6Vlv56zgLSbycl5SWXWPojxH0eIlDtOaRShEEqOh5KwCN2gQtPOPj/5JnEMmz2zCE5UZ2gYsS3Ap6CyTFHlxylGPOhnwDwqKV4jNv/+ePDE=
+    - secure: xAl3Qe08YUU55l8yPVTJmPAsW5mmUrhrVj/f7WG/wGiLdNSIwPs6mxx7VH3PQ4iW1G8R61VLbQ872VRcTfXqH7xZcCZTdREHkfDZYR5YN2DgdBkrf2B9Okg0UqyRBV2iVufiCSpnVZP/pgD5kHoE2zvm/27Jq0Wx/3qDGX7bTaBktauJlhC7ZD0+Y1c8RSodaQ33t9A1KhEDN5s3I/+zEYT2cwPYRaOt04/PzXu2w5WCs86Hkl0qiuEFW0iX9EuE3KdiRtqGzeQ89nne1KDsdFJBAqngvEwRp0VbqVx0CQyjQiZG3DFMwsoHrnD/fE6KoDTZmI56lr7k6BXj55MMtnWdKj2zR4UgF0xN7K1gJLbx0RPdPOv4heKtmgfcj11SInNAlYXIA+UGgRh689+TnBVOVCNgr4diS06Ux4Ak5BKrTXMOgNxp2NVhOUejc0ubc/BvOtWxe3rZB+RKa0/AqLtYCFogz8jtZVj4FTIVWr6efiiGQ7UQ7ct4FYZ8kqKosFuMysCVc1MTx2c+jYLRohKW7ietjJNeIw0irgAc/E2NEFuodEf2tgXClHHqJTatj84Y+6bXl0wstVmMc0n7NEiQ+isIVVSE8qMYGRUFl0jiapJfcE7sowgGM6Zns0rtNeBviOxMuXxsFCOkl4wskHzqMoIcg38KMhRKg1wf/ec=
     - GIT_NAME: Travis CI
     - GIT_EMAIL: dead-hosts@funilrys.com
     - TRAVIS_REPO_SLUG: Ultimate-Hosts-Blacklist/SSH_attackers_probers
     - GIT_BRANCH: master
 
+dist: xenial
+sudo: required
 language: python
 
 python:
-  - "3.6"
+  - "3.7"
 
 matrix:
   fast_finish: true
 
 cache:
-  - apt
   - pip
 
-sudo: required
+addons:
+  apt:
+    packages:
+      - dos2unix
 
-before_install:
-  - pip3 install colorama
-  - sudo apt-get -y install dos2unix
+install:
+  - pip3 install --upgrade pip
+  - pip3 install requests
 
 script:
-  - pip3 install git+https://github.com/funilrys/PyFunceble.git@dev#egg=PyFunceble && python3 ./update.py
+  - python3 ./update.py
 
 notifications:
   on_success:   change
