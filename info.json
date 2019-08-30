@@ -1,8 +1,8 @@
 {
     "currently_under_test": "0",
     "days_until_next_test": 2,
-    "end_datetime": "Wed Aug 28 22:22:04 2019",
-    "end_epoch": 1567030924.790691,
+    "end_datetime": "Fri Aug 30 22:16:34 2019",
+    "end_epoch": 1567203394.826899,
     "name": "SSH_attackers_probers",
     "previous_stats": {
         "builds": 1,
@@ -18,6 +18,6 @@
         "whitelisted.list": 349
     },
     "raw_link": "",
-    "start_datetime": "Wed Aug 28 22:17:59 2019",
-    "start_epoch": 1567030679.4145
+    "start_datetime": "Fri Aug 30 22:12:38 2019",
+    "start_epoch": 1567203158.220933
 }
