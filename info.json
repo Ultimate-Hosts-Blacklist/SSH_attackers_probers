@@ -1,19 +1,19 @@
 {
     "current_stats": {
-        "builds": 4,
+        "builds": 5,
         "counter": {
-            "down": 46,
+            "down": 63,
             "invalid": 0,
-            "tested": 204,
-            "up": 158
+            "tested": 256,
+            "up": 193
         }
     },
     "currently_under_test": "1",
     "days_until_next_test": 2,
     "end_datetime": "Thu Oct  3 11:00:34 2019",
     "end_epoch": 1570100434.531272,
-    "last_autosave_datetime": "Sat Oct  5 09:02:48 2019",
-    "last_autosave_epoch": 1570266168.040417,
+    "last_autosave_datetime": "Sat Oct  5 11:28:16 2019",
+    "last_autosave_epoch": 1570274896.733913,
     "name": "SSH_attackers_probers",
     "previous_stats": {
         "builds": 1,
