@@ -1,8 +1,8 @@
 {
     "currently_under_test": "0",
     "days_until_next_test": 2,
-    "end_datetime": "Sun Nov 24 23:35:07 2019",
-    "end_epoch": 1574638507.747506,
+    "end_datetime": "Mon Nov 25 11:09:23 2019",
+    "end_epoch": 1574680163.915078,
     "last_autosave_datetime": "Sun Oct  6 07:49:37 2019",
     "last_autosave_epoch": 1570348177.578841,
     "name": "SSH_attackers_probers",
@@ -10,16 +10,16 @@
         "builds": 1,
         "clean.list": 289,
         "counter": {
-            "down": 396,
+            "down": 394,
             "invalid": 0,
-            "tested": 685,
+            "tested": 683,
             "up": 289
         },
-        "domains.list": 685,
+        "domains.list": 683,
         "volatile.list": 289,
         "whitelisted.list": 289
     },
     "raw_link": "",
-    "start_datetime": "Sun Nov 24 23:27:43 2019",
-    "start_epoch": 1574638063.211482
+    "start_datetime": "Mon Nov 25 11:01:34 2019",
+    "start_epoch": 1574679694.619921
 }
