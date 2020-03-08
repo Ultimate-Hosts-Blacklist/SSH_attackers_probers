@@ -9,7 +9,7 @@
     "previous_stats": {
         "builds": 1,
         "clean.list": 0,
-        "clean_list": 289,
+        "clean_list": 290,
         "counter": {
             "down": 0,
             "invalid": 0,
@@ -20,11 +20,11 @@
             "valid": 0
         },
         "domains.list": 685,
-        "ip.list": 289,
-        "volatile.list": 289,
-        "whitelisted.list": 289
+        "ip.list": 291,
+        "volatile.list": 290,
+        "whitelisted.list": 290
     },
     "raw_link": "",
-    "start_datetime": "2020-03-06T11:13:23.570071",
-    "start_epoch": 1583493203.570071
+    "start_datetime": "2020-03-08T10:41:28.422056",
+    "start_epoch": 1583664088.422056
 }
