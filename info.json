@@ -20,11 +20,11 @@
             "valid": 0
         },
         "domains.list": 685,
-        "ip.list": 296,
+        "ip.list": 295,
         "volatile.list": 288,
         "whitelisted.list": 288
     },
     "raw_link": "",
-    "start_datetime": "2020-06-05T01:58:50.137490",
-    "start_epoch": 1591322330.13749
+    "start_datetime": "2020-06-07T01:55:32.362021",
+    "start_epoch": 1591494932.362021
 }
