@@ -731,8 +731,8 @@
         "121.58.209.165": {
             "included_at_epoch": 1588383694.0,
             "included_at_iso": "2020-05-02T01:41:34",
-            "last_retested_at_epoch": 1592364413.712604,
-            "last_retested_at_iso": "2020-06-17T03:26:53.712604",
+            "last_retested_at_epoch": 1592870044.934751,
+            "last_retested_at_iso": "2020-06-22T23:54:04.934751",
             "status": "INACTIVE"
         },
         "122.193.9.41": {
@@ -1508,8 +1508,8 @@
         "202.90.153.91": {
             "included_at_epoch": 1587987122.0,
             "included_at_iso": "2020-04-27T11:32:02",
-            "last_retested_at_epoch": 1592705738.275219,
-            "last_retested_at_iso": "2020-06-21T02:15:38.275219",
+            "last_retested_at_epoch": 1592869931.063055,
+            "last_retested_at_iso": "2020-06-22T23:52:11.063055",
             "status": "INACTIVE"
         },
         "203.110.83.178": {
