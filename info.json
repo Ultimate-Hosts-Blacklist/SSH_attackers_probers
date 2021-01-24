@@ -1,30 +1,18 @@
 {
-    "currently_under_test": false,
+    "currently_under_test": true,
+    "custom_pyfunceble_config": {},
     "days_until_next_test": 2,
     "end_datetime": "2020-03-03T23:06:45.451960",
     "end_epoch": 1583152256.898841,
-    "last_autosave_datetime": "2020-03-03T23:06:45.451976",
-    "last_autosave_epoch": 1583148099.874255,
     "name": "SSH_attackers_probers",
-    "previous_stats": {
-        "builds": 1,
-        "clean.list": 0,
-        "clean_list": 269,
-        "counter": {
-            "down": 0,
-            "invalid": 0,
-            "malicious": 0,
-            "sane": 0,
-            "tested": 0,
-            "up": 0,
-            "valid": 0
-        },
-        "domains.list": 685,
-        "ip.list": 269,
-        "volatile.list": 269,
-        "whitelisted.list": 269
+    "previous_end_datetime": "2020-03-03T23:06:45.451960",
+    "previous_end_epoch": 1583276805.45196,
+    "previous_start_datetime": "2021-01-24T01:51:55.957156",
+    "previous_start_epoch": 1611453115.957156,
+    "pyfunceble": {
+        "config": {}
     },
     "raw_link": "",
-    "start_datetime": "2021-01-24T01:51:55.957156",
-    "start_epoch": 1611453115.957156
+    "start_datetime": "2021-01-24T10:18:23.394226",
+    "start_epoch": 1611483503.394226
 }
