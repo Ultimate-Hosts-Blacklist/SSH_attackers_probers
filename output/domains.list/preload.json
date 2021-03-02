@@ -4,12 +4,12 @@
     "destination": "domains.list",
     "hash": "516c0e2b4815088decbbbec21b5d4f44a8037457252a528273f3f7f0",
     "line_number": 686,
-    "output_dir": "/home/runner/work/SSH_attackers_probers/SSH_attackers_probers/output/domains.list",
+    "output_dir": "/var/jenkins/workspace/ist_SSH_attackers_probers_master/output/domains.list",
     "previous_hash": "516c0e2b4815088decbbbec21b5d4f44a8037457252a528273f3f7f0",
     "rel_source": "domains.list",
     "session_id": "50c58511cde78519d305d470",
-    "source": "/home/runner/work/SSH_attackers_probers/SSH_attackers_probers/domains.list",
-    "subject": "/home/runner/work/SSH_attackers_probers/SSH_attackers_probers/domains.list",
+    "source": "domains.list",
+    "subject": "domains.list",
     "subject_type": "domain",
     "type": "file"
 }
