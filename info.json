@@ -1,8 +1,8 @@
 {
-    "currently_under_test": true,
+    "currently_under_test": false,
     "days_until_next_test": 2,
-    "end_datetime": "2021-03-26T01:01:15.045460",
-    "end_epoch": 1616720475.04546,
+    "end_datetime": "2021-03-26T13:05:13.408274",
+    "end_epoch": 1616763913.408274,
     "name": "SSH_attackers_probers",
     "previous_end_datetime": "2021-03-26T01:01:15.045460",
     "previous_end_epoch": 1616720475.04546,
