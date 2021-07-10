@@ -10,11 +10,11 @@
     },
     "percentage": {
         "ACTIVE": 99.67105263157895,
-        "INACTIVE": 0.47393364928909953,
+        "INACTIVE": 0.4065040650406504,
         "INVALID": 0,
         "MALICIOUS": 0,
         "SANE": 0,
         "VALID": 0,
-        "total": 100.14498628086804
+        "total": 100.0775566966196
     }
 }
