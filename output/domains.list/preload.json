@@ -1,0 +1,15 @@
+[
+    {
+        "checker_type": "AVAILABILITY",
+        "destination": "domains.list",
+        "hash": "71f6852ff7ef6b89c42af4170e4d15114e210ae2b125ebc4dc432b60",
+        "line_number": 686,
+        "output_dir": "/home/runner/work/SSH_attackers_probers/SSH_attackers_probers/output/domains.list",
+        "previous_hash": "71f6852ff7ef6b89c42af4170e4d15114e210ae2b125ebc4dc432b60",
+        "session_id": "9d45fd83966894a3c172eb88",
+        "source": "domains.list",
+        "subject": "domains.list",
+        "subject_type": "domain",
+        "type": "file"
+    }
+]
