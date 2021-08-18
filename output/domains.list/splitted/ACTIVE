@@ -307,3 +307,6 @@ Subject                                                                         
 95.110.204.183                                                                                       ACTIVE      DNSLOOKUP  Unknown           Unknown    AVAILABILITY 
 95.59.143.166                                                                                        ACTIVE      HTTP CODE  Unknown           200        AVAILABILITY 
 97.120.76.126                                                                                        ACTIVE      DNSLOOKUP  Unknown           Unknown    AVAILABILITY 
+138.197.99.140                                                                                       ACTIVE      HTTP CODE  Unknown           301        AVAILABILITY 
+103.217.152.20                                                                                       ACTIVE      DNSLOOKUP  Unknown           Unknown    AVAILABILITY 
+106.75.6.3                                                                                           ACTIVE      NETINFO    Unknown           Unknown    AVAILABILITY 
