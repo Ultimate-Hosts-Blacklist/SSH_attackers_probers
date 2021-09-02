@@ -308,3 +308,5 @@ Subject                                                                         
 188.212.103.213                                                                                      ACTIVE      DNSLOOKUP  Unknown           Unknown    AVAILABILITY 
 188.212.103.45                                                                                       ACTIVE      NETINFO    Unknown           Unknown    AVAILABILITY 
 178.62.61.110                                                                                        ACTIVE      HTTP CODE  Unknown           301        AVAILABILITY 
+27.72.64.32                                                                                          ACTIVE      NETINFO    Unknown           Unknown    AVAILABILITY 
+45.41.92.66                                                                                          ACTIVE      HTTP CODE  Unknown           200        AVAILABILITY 
