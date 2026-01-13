@@ -1,17 +1,17 @@
 {
-    "currently_under_test": false,
+    "currently_under_test": true,
     "days_until_next_test": 2,
     "end_datetime": "2026-01-12T05:16:42.940821",
     "end_epoch": 1768195002.940821,
     "name": "SSH_attackers_probers",
-    "previous_end_datetime": "2026-01-11T07:08:55.079796",
-    "previous_end_epoch": 1768115335.079796,
-    "previous_start_datetime": "2026-01-11T04:57:44.192311",
-    "previous_start_epoch": 1768107464.192311,
+    "previous_end_datetime": "2026-01-12T05:16:42.940821",
+    "previous_end_epoch": 1768195002.940821,
+    "previous_start_datetime": "2026-01-12T05:06:53.710414",
+    "previous_start_epoch": 1768194413.710414,
     "pyfunceble": {
         "config": {}
     },
     "raw_link": "",
-    "start_datetime": "2026-01-12T05:06:53.710414",
-    "start_epoch": 1768194413.710414
+    "start_datetime": "2026-01-13T05:02:01.896431",
+    "start_epoch": 1768280521.896431
 }
